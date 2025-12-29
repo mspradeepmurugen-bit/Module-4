@@ -30,9 +30,22 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
-Add Code here
+```
+data = {'b': 3, 'a': 1, 'c': 2}
+
+sorted_by_keys = dict(sorted(data.items()))
+
+
+sorted_by_values = dict(sorted(data.items(), key=lambda item: item[1]))
+
+
+print("Original dictionary:", data)
+print("Sorted by keys:", sorted_by_keys)
+print("Sorted by values:", sorted_by_values)
+```
 
 ## Sample Output
+<img width="949" height="294" alt="Screenshot 2025-12-28 144732" src="https://github.com/user-attachments/assets/3d526968-6450-4761-9f45-522de1416f93" />
 
 ## Result
-
+thus the python program is executed sucessfully!
